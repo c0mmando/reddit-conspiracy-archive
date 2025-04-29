@@ -1,40 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta content="index,follow" name="robots"/>
+    <meta content="conspiracy, archive, posts, comments, reddit, forum" name="keywords"/>
+
+    <!-- Character Encoding & Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Title and Description -->
+    <title>/r/Conspiracy Archive</title>
+    <meta content="Archive of /r/Conspiracy on Reddit: 34,579 posts, 276,632 comments, and 711,118 users from Aug 15, 2008 to Oct 15, 2018." name="description"/>
+
+    <!-- Open Graph Meta Tags -->
+    <meta content="en_US" property="og:locale"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="/r/Conspiracy Archive" />
+    <meta property="og:title" content="/r/Conspiacy Archive" />
+    <meta content="Archive of /r/Conspiracy on Reddit: 34,579 posts, 276,632 comments, and 711,118 users from Aug 15, 2008 to Oct 15, 2018." property="og:description"/>
+    <meta content="https://reddit.conspiracy.hackliberty.org/" property="og:url"/>
+    <meta content="https://reddit.conspiracy.hackliberty.org/illuminati.webp" property="og:image"/>
+
+    <!-- Twitter Meta Tags -->
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta name="twitter:title" content="/r/Conspiracy Archive" />
+    <meta content="Archive of /r/Conspiracy on Reddit: 34,579 posts, 276,632 comments, and 711,118 users from Aug 15, 2008 to Oct 15, 2018." name="twitter:description"/>
+    <meta content="https://reddit.conspiracy.hackliberty.org/illuminati.webp" name="twitter:image"/>
+    <meta name="twitter:url" content="https://reddit.conspiracy.hackliberty.org" />
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="static/css/lato.css">
     <link rel="stylesheet" href="static/css/bootstrap-superhero.min.css">
     <link rel="stylesheet" href="static/css/archive.css">
-    <title>subreddits</title>
+    <style>
+      img {
+        display: block;
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 540 / 283.5;
+        margin: 10px auto;
+      }
+    </style>
+
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <span class="navbar-brand">subreddits</span>
+        <a class="navbar-brand" href="index.html">r/Conspiracy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+       <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="conspiracy/index.html">score</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="conspiracy/index-comments/index.html">comments</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="conspiracy/index-date/index.html">date</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="conspiracy/search.html">search</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">subreddits</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">All</a>
-                <a class="dropdown-item" href="conspiracy/index.html">conspiracy</a>
+                <a class="dropdown-item" href="https://reddit.conspiracy.hackliberty.org">r/conspiracy</a>
+                <a class="dropdown-item" href="https://reddit.pizzagate.hackliberty.org">r/pizzagate</a>
+                <a class="dropdown-item" href="https://voat.conspiracy.hackliberty.org">v/conspiracy</a>
+                <a class="dropdown-item" href="https://voat.pizzagate.hackliberty.org">v/pizzagate</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <main role="main" class="container-fluid">
-      <div class="links mt-3">
-        <h5><a class="subreddit" href="conspiracy/index.html">conspiracy</a>  <span class="badge badge-secondary">34579</span></h5> 
-      </div>
-    </main>
+    <!-- Main Content Section -->
+  <main>
+  <!-- Intro Section: Logo, Title, and Archive Description -->
+  <!-- Wrap your content in a container -->
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <!-- Center a 6-column wide element using col-lg-6 and offset-lg-3 -->
+        <div class="col-lg-6 offset-lg-3">
+          <div class="panel text-center">
+            <img src="illuminati.webp" alt="illuminati all seeing eye" width="1200" height="630"/>
+            <h1>
+              <a href="https://web.archive.org/web/20181015183143/https://www.reddit.com/r/conspiracy/">
+                /r/Conspiracy
+              </a>
+            </h1>
+            <!-- Provide a max width and auto margins for centering the paragraph -->
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+              <p>
+                <a href="https://git.hackliberty.org/c0mmando/reddit-conspiracy-archive/">
+                  This archive
+                </a> of the /r/conspiracy community on Reddit preserves 34,579 posts and 276,632 comments from August 15, 2008 through October 15, 2018.
+              </p>
+            </div>
+          </div><!-- end .panel -->
+        </div><!-- end .col-lg-6 offset-lg-3 -->
+      </div><!-- end .row -->
+    </div><!-- end .container -->
+  </section>
+
+  <!-- Download Mirror Buttons -->
+  <div class="download-buttons" style="margin-top: 10px; text-align: center;">
+    <a href="https://github.com/c0mmando/voat-conspiracy-archive/" target="_blank">Mirror 1</a>
+    <a href="https://git.hackliberty.org/c0mmando/voat-conspiracy-archive/" target="_blank">Mirror 2</a>
+    <a href="https://git.projectsegfau.lt/c0mmando/voat-conspiracy-archive/" target="_blank">Mirror 3</a>
+    <a href="https://web.archive.org/https://github.com/c0mmando/voat-conspiracy-archive/archive/refs/heads/main.zip" target="_blank">Mirror 4</a>
+    <a href="http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/c0mmando/voat-conspiracy-archive/" target="_blank">Mirror 5</a>
+    <a href="http://git.dkforestseeaaq2dqz2uflmlsybvnq2irzn4ygyvu53oazyorednviid.onion/c0mmando/voat-conspiracy-archive/" target="_blank">Mirror 6</a>
+  </div>
+</main>
     <footer class="container-fluid">
-      <p class="small mb-0">archive has 34579 posts. <a href="https://github.com/libertysoft3/reddit-html-archiver">source code</a>.</p>
+      <p class="small mb-0">r/conspiracy archive has 34579 posts and 276632 comments. <a href="https://git.hackliberty.org/c0mmando/reddit-conspiracy-archive">source code</a>.</p>
     </footer>
     <script src="static/js/jquery-3.3.1.slim.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
