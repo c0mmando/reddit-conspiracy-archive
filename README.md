@@ -17,7 +17,6 @@ reddit-conspiracy-archive/
 ├── index.html         # Main landing page for the archive
 ├── README.md          # This README file
 ├── robots.txt         # Robots exclusion file
-├── sitemap.py         # Python script for sitemap creation
 ├── sitemaps           # Directory for generated sitemap files
 ├── static             # Directory containing static assets (CSS, JS, images)
 └── user               # Directory for user-related files (if any)
